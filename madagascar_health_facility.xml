@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
     author="Dolly Andriatsiferana"
     version="1.0"
-    shortdescription="Madagascar specific features preset">
+    shortdescription="Preset for Madagascar specific health facilities">
     <group name="Etablissement Sanitaire" icon="presets/health/hospital.svg" >
         <group name="Etablissement Sanitaire Public" icon="presets/health/hospital.svg" >
             <item name="Site Communautaire" icon="presets/social_facility/outreach.svg" >
