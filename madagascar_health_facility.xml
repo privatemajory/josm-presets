@@ -27,7 +27,7 @@
             <item name="CSB II" icon="presets/health/pharmacy.svg">
                 <label text="Centre de Santé de Base Niveau II" />
                 <label text="---------------------------" />
-                <key key="amenity" value="health_post" />
+                <key key="amenity" value="doctors" />
                 <key key="healthcare" value="doctor" />
                 <key key="health_facility:MG" value="CSB2" />
                 <key key="operator:type" value="public" />
