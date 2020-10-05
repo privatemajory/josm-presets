@@ -14,11 +14,20 @@
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <label text="---------------------------" />
             </item>
+            <item name="Case de Santé" icon="presets/health/pharmacy.svg" >
+                <label text="Case de Santé" />
+                <label text="---------------------------" />
+                <key key="amenity" value="health_post" />
+                <combo key="healthcare" text="Responsable" values="nurse, midwife" display_values="Infirmier (ou infirmière), Sage-femme" default="nurse" />
+                <key key="operator:type" value="public" />
+                <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
+                <label text="---------------------------" />
+            </item>
             <item name="CSB I" icon="presets/health/pharmacy.svg">
                 <label text="Centre de Santé de Base Niveau I" />
                 <label text="---------------------------" />
                 <key key="amenity" value="health_post" />
-                <key key="healthcare" value="nurse" />
+                <combo key="healthcare" text="Responsable" values="nurse, midwife" display_values="Infirmier (ou infirmière), Sage-femme" default="nurse" />
                 <key key="health_facility:MG" value="CSB1" />
                 <key key="operator:type" value="public" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
@@ -28,7 +37,7 @@
                 <label text="Centre de Santé de Base Niveau II" />
                 <label text="---------------------------" />
                 <key key="amenity" value="doctors" />
-                <key key="healthcare" value="doctor" />
+                <combo key="healthcare" text="Responsable" values="doctor, nurse, midwife" display_values="Médecin, Infirmier (ou infirmière), Sage-femme" default="doctor" />
                 <key key="health_facility:MG" value="CSB2" />
                 <key key="operator:type" value="public" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
