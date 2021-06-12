@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
     author="Dolly Andriatsiferana"
-    version="1.0"
-    shortdescription="Preset for Madagascar specific health facilities">
-    <group name="Etablissement Sanitaire" icon="presets/health/hospital.svg" >
+    version="2.0"
+    shortdescription="Preset for Madagascar specific amenities and facilities">
+    <group name="Madagascar/Education" icon="presets/education/school.svg" >
+        <group name="Ecole" icon="presets/education/school.svg" >
+            <item name="Lycée" icon="presets/education/school.svg" >
+                <label text="Lycée" />
+                <label text="---------------------------" />
+                <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
+                <key key="amenity" value="school" />
+                <key key="school:MG" value="lycée" />
+                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <label text="---------------------------" />
+            </item>
+            <item name="Collège" icon="presets/education/school.svg" >
+                <label text="Collège" />
+                <label text="---------------------------" />
+                <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
+                <key key="amenity" value="school" />
+                <key key="school:MG" value="collège" />
+                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <label text="---------------------------" />
+            </item>
+            <item name="Ecole Primaire" icon="presets/education/school.svg" >
+                <label text="Ecole Primaire" />
+                <label text="---------------------------" />
+                <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
+                <key key="amenity" value="school" />
+                <key key="school:MG" value="primaire" />
+                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <label text="---------------------------" />
+            </item>
+            <item name="Préscolaire" icon="presets/education/school.svg" >
+                <label text="Préscolaire" />
+                <label text="---------------------------" />
+                <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
+                <key key="amenity" value="school" />
+                <key key="school:MG" value="préscolaire" />
+                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <label text="---------------------------" />
+            </item>
+        </group>
+    </group>
+    <group name="Madagascar/Santé" icon="presets/health/hospital.svg" >
         <group name="Etablissement Sanitaire Public" icon="presets/health/hospital.svg" >
             <item name="Site Communautaire" icon="presets/social_facility/outreach.svg" >
                 <label text="Site Communautaire / Agent Communautaire" />
