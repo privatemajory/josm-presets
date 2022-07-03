@@ -11,7 +11,7 @@
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="school" />
                 <key key="school:MG" value="lycée" />
-                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="public,private,religious,ngo,consortium,cooperative" display_values="Public,Privé,Réligieux,ONG,Consortium,Coopérative" />
                 <label text="---------------------------" />
             </item>
             <item name="Collège" icon="presets/education/school.svg" >
@@ -20,7 +20,7 @@
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="school" />
                 <key key="school:MG" value="collège" />
-                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="public,private,religious,ngo,consortium,cooperative" display_values="Public,Privé,Réligieux,ONG,Consortium,Coopérative" />
                 <label text="---------------------------" />
             </item>
             <item name="Ecole Primaire" icon="presets/education/school.svg" >
@@ -29,7 +29,7 @@
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="school" />
                 <key key="school:MG" value="primaire" />
-                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="public,private,religious,ngo,consortium,cooperative" display_values="Public,Privé,Réligieux,ONG,Consortium,Coopérative" />
                 <label text="---------------------------" />
             </item>
             <item name="Préscolaire" icon="presets/education/school.svg" >
@@ -38,7 +38,7 @@
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="school" />
                 <key key="school:MG" value="préscolaire" />
-                <combo key="operator:type" text="Type d'opérateur" values="public, private, religious, ngo, consortium, cooperative" display_values="Public, Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="public,private,religious,ngo,consortium,cooperative" display_values="Public,Privé,Réligieux,ONG,Consortium,Coopérative" />
                 <label text="---------------------------" />
             </item>
         </group>
@@ -59,7 +59,7 @@
                 <label text="---------------------------" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="health_post" />
-                <combo key="healthcare" text="Responsable" values="nurse, midwife" display_values="Infirmier (ou infirmière), Sage-femme" default="nurse" />
+                <combo key="healthcare" text="Responsable" values="nurse,midwife" display_values="Infirmier (ou infirmière),Sage-femme" default="nurse" />
                 <key key="operator:type" value="public" />
                 <label text="---------------------------" />
             </item>
@@ -68,7 +68,7 @@
                 <label text="---------------------------" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="health_post" />
-                <combo key="healthcare" text="Responsable" values="nurse, midwife" display_values="Infirmier (ou infirmière), Sage-femme" default="nurse" />
+                <combo key="healthcare" text="Responsable" values="nurse,midwife" display_values="Infirmier (ou infirmière),Sage-femme" default="nurse" />
                 <key key="health_facility:MG" value="CSB1" />
                 <key key="operator:type" value="public" />
                 <label text="---------------------------" />
@@ -78,19 +78,19 @@
                 <label text="---------------------------" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="doctors" />
-                <combo key="healthcare" text="Responsable" values="doctor, nurse, midwife" display_values="Médecin, Infirmier (ou infirmière), Sage-femme" default="doctor" />
+                <combo key="healthcare" text="Responsable" values="doctor,nurse,midwife" display_values="Médecin,Infirmier (ou infirmière),Sage-femme" default="doctor" />
                 <key key="health_facility:MG" value="CSB2" />
                 <key key="operator:type" value="public" />
                 <label text="---------------------------" />
             </item>
-            <item name="Hôpital Public (CHRD, CHRR, CHU)" icon="presets/health/hospital.svg">
+            <item name="Hôpital Public (CHRD,CHRR,CHU)" icon="presets/health/hospital.svg">
                 <label text="Hôpital Public" />
                 <label text="---------------------------" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="hospital" />
                 <key key="healthcare" value="hospital" />
                 <key key="operator:type" value="public" />
-                <combo key="health_facility:MG" text="Niveau" values="CHRD, CHRR, CHU" display_values="Centre Hospitalier de Référence de District, Centre Hospitalier de Référence Régionale, Centre Hospitalier Universitaire"/>
+                <combo key="health_facility:MG" text="Niveau" values="CHRD,CHRR,CHU" display_values="Centre Hospitalier de Référence de District,Centre Hospitalier de Référence Régionale,Centre Hospitalier Universitaire"/>
                 <label text="---------------------------" />
             </item>
         </group>
@@ -102,7 +102,7 @@
                 <key key="amenity" value="health_post" />
                 <key key="healthcare" value="midwife" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
-                <combo key="operator:type" text="Type d'opérateur" values="private, religious, ngo, consortium, cooperative" display_values="Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
             <item name="Poste d'infirmerie" icon="presets/health/doctors.svg">
                 <label text="Poste d'infirmerie" />
@@ -111,16 +111,16 @@
                 <key key="amenity" value="health_post" />
                 <key key="healthcare" value="nurse" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
-                <combo key="operator:type" text="Type d'opérateur" values="private, religious, ngo, consortium, cooperative" display_values="Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
             <item name="Dispensaire ou Centre de Santé de Base Privé" icon="presets/health/doctors.svg">
                 <label text="Dispensaire ou Centre de Santé de Base Privé" />
                 <label text="---------------------------" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="health_post" />
-                <combo key="healthcare" text="Tenu par un" values="doctor, nurse" display_values="Médecin, Infirmier (ou infirmière)" />
+                <combo key="healthcare" text="Tenu par un" values="doctor,nurse" display_values="Médecin,Infirmier (ou infirmière)" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
-                <combo key="operator:type" text="Type d'opérateur" values="private, religious, ngo, consortium, cooperative" display_values="Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
             <item name="Cabinet Médical" icon="presets/health/doctors.svg">
                 <label text="Cabinet Médical" />
@@ -129,7 +129,7 @@
                 <key key="amenity" value="doctors" />
                 <key key="healthcare" value="doctor" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
-                <combo key="operator:type" text="Type d'opérateur" values="private, religious, ngo, consortium, cooperative" display_values="Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
             <item name="Clinique ou Polyclinique"  icon="presets/health/clinic.svg">
                 <label text="Clinique ou Polyclinique" />
@@ -138,7 +138,7 @@
                 <key key="amenity" value="clinic" />
                 <key key="healthcare" value="clinic" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
-                <combo key="operator:type" text="Type d'opérateur" values="private, religious, ngo, consortium, cooperative" display_values="Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
             <item name="Hôpital Privé" icon="presets/health/hospital.svg">
                 <label text="Hôpital Privé" />
@@ -147,7 +147,7 @@
                 <key key="amenity" value="hospital" />
                 <key key="healthcare" value="hospital" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
-                <combo key="operator:type" text="Type d'opérateur" values="private, religious, ngo, consortium, cooperative" display_values="Privé, Réligieux, ONG, Consortium, Coopérative" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
         </group>
     </group>
