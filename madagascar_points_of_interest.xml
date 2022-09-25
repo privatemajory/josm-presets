@@ -113,12 +113,21 @@
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
                 <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
-            <item name="Dispensaire ou Centre de Santé de Base Privé" icon="presets/health/doctors.svg">
-                <label text="Dispensaire ou Centre de Santé de Base Privé" />
+            <item name="Dispensaire Privé" icon="presets/health/doctors.svg">
+                <label text="Dispensaire Privé" />
                 <label text="---------------------------" />
                 <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
                 <key key="amenity" value="health_post" />
                 <combo key="healthcare" text="Tenu par un" values="doctor,nurse" display_values="Médecin,Infirmier (ou infirmière)" />
+                <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
+                <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
+            </item>
+            <item name="Centre de Santé de Base Privé" icon="presets/health/doctors.svg">
+                <label text="Centre de Santé de Base Privé" />
+                <label text="---------------------------" />
+                <text key="name" text="Nom de l'établissement" default="" delete_if_empty="true" />
+                <key key="amenity" value="doctors" />
+                <key key="healthcare" value="doctor" />
                 <text key="operator" text="Nom de l'opérateur" default="" delete_if_empty="true" />
                 <combo key="operator:type" text="Type d'opérateur" values="private,religious,ngo,consortium,cooperative" display_values="Privé,Réligieux,ONG,Consortium,Coopérative" />
             </item>
